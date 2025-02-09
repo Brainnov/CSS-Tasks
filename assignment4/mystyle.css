@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+.main-container {
+    width: 1440px;
+    height: 840px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+}
+.group1 {
+    width: 460px;
+    height: 275px;
+    position: absolute;
+    top: 205px;
+    left: 140px;
+    padding: 70px;
+}
+.group1 h1 {
+    font-family: Roboto;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 200px;
+   
+}
+.group1 p {
+    font-family: Raleway;
+    font-size: 15px;
+    line-height: 1.6;
+
+}
+.form {
+    background-color: rgb(251, 247, 247);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 600px;
+    height: 679px;
+    position: absolute;
+    top: 81px;
+    left: 720px;
+    padding: 30px;
+    box-shadow: 1px 1px 1px, rgb(0, 0, 0, 0.5);
+    column-gap: 100px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+
+}
+label {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type="text"],
+input[type="date"],
+input[type="password"],
+select {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #cccccc;
+    transition: border-color 0.3sec ease;
+}
+input:focus, select:focus {
+    border-color: #007bff;
+}
+.form-group7 {
+    grid-column: span 2;
+}
+.form-group6 {
+    grid-column: span 2;
+}
+
+button {
+    grid-column: span 2;
+    background-color: lightseagreen;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+footer {
+    grid-column: span 2;
+    text-align: center;
+}
+footer a {
+    color:lightseagreen;
+}
+@media (max-width: 600px) {
+    .form {
+        grid-template-columns: 1 fr;
+    }
+}
+footer, button {
+    grid-column: span;
+}
+

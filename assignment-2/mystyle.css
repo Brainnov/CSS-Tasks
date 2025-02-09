@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-top {
+    background-color: antiquewhite;
+    width: 55%;
+    padding: 0px 20px 0px 10px;
+    float: left;
+    height: 630px;
+}
+ div p {
+    font-size: 20px;
+    margin-left: 10px;
+}
+span {
+    color: green;
+}
+.main2 h1 {
+    background-color: rgb(255, 190, 1);
+    width: 350px;
+    margin-left: 8px;
+    padding: 10px 10px 0px 0px;
+    box-shadow: 2px 5px 8px;
+}
+.top {
+    padding: 40px 0px;
+}
+.top h1 {
+    margin-left: px;
+    padding: 12px;
+}
+.top > p {
+    padding-top: 10px;
+}
+.aside {
+    background-color: whitesmoke;
+    width: 40%;
+    float: right;
+    height: 630px;
+}
+
+.p-content {
+    padding-bottom: 40px;
+}
+.p-content > p {
+    padding: 8px;
+}
+.aside-heading {
+    background-color: rgb(255, 190, 1);
+    margin-left: 16px;
+    width: 230px;
+    box-shadow: 2px 5px 8px;
+}
+.content > p {
+    padding: 10px;
+}
+.content p {
+    padding-left: 5px;
+}
